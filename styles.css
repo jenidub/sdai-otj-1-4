@@ -1,40 +1,39 @@
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
-.dev-favorites-title {
-    text-align: center;
-    width: 800px;
-}
-
-.menu-items {
-    padding: 10px;
-}
-
-h1, h2, h3 {
+/* Element Selectors Styling */
+h1, h2, h3, h4 {
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 5px;
+    margin: 0px;
     color: purple;
     padding: 5px;
 }
 
 h1 {
     font-size: 32px;
+    margin-top: 20px;
 }
 
 h2 {
     font-size: 24px;
+    margin-top: 20px;
 }
 
 h3 {
     font-size: 16px;
 }
 
+h4 {
+    font-size: 14px;
+}
+
 img {
     width: 400px;
     height: 300px;
+    margin: 20px 0px 20px 10px;
 }
 
 p {
@@ -63,4 +62,22 @@ nav a {
     color: black;
     padding: 10px;
     display: inline-block;
+}
+
+/* Class Selectors Styling */
+.dev-favorites-title {
+    text-align: center;
+    width: 800px;
+}
+
+/* .dev-favorites-content {
+    margin-top: 20px;
+} */
+
+.menu-items {
+    padding-left: 10px;
+}
+
+.italic-text {
+    font-style: italic;
 }
