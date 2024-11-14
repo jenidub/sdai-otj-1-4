@@ -1,0 +1,66 @@
+p {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.orbitron-subheader {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merienda-title {
+    font-family: "Merienda", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    background-color: blue;
+    height: 2em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.hero-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-gallery-width {
+    width: 400px;
+}
+
+.image-gallery-width {
+    height: 250px;
+}
+
+.social-icon-width {
+    width: 50px;
+}
+
+.image-gallery-container,
+.social-gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

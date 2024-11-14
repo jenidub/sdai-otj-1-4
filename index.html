@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Dish Food Truck & Restaurant</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="#">MENU</a></li>
-            <li><a href="#">HOURS</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">LOCATIONS</a></li>
-        </ul>
+        <div class="navbar">
+            <a href="#">MENU</a>
+            <a href="#">HOURS</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">LOCATIONS</a>
+        </div>
     </nav>
-    <h1>Dev Dish Food Truck & Restaurant</h1>
+    <h1 class="merienda-title">Dev Dish Food Truck & Restaurant</h1>
     <div id="hero-image">
-        <img src="./assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg" alt="Dev Dish food truck serving customers at night in the city of LA" width="200px">
-        <img src="./assets/images/pexels-edwardeyer-1247755.jpg" alt="Behind the scenes look at a Dev Dish chef preparing hamburger sliders" width="200px">
+        <img class="hero-gallery-width" src="./assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg" alt="Dev Dish food truck serving customers at night in the city of LA" width="200px">
+        <img class="hero-gallery-width" src="./assets/images/pexels-edwardeyer-1247755.jpg" alt="Behind the scenes look at a Dev Dish chef preparing hamburger sliders" width="200px">
     </div>
     <div id="about-us">
         <h2>About Us</h2>
@@ -25,14 +29,21 @@
         <p>Dev Dish brings a unique twist to the food truck scene, offering a menu full of creative, tech-inspired dishes. Whether you're a tech enthusiast or a food lover, our offerings are designed to satisfy both your appetite and your curiosity.</p>
         <p>Dev Dish is the brainchild of Alex and Jamie, two friends who met at a hackathon and discovered a shared love for innovative cuisine. With a background in software development and a knack for culinary creativity, they embarked on a journey to deliver delicious, tech-themed dishes to the community.</p>
     </div>
-    <div id="dev-favorites">
-        <h2>The Dev Dish Quarterly Menu</h2>
+    <section id="dev-favorites">
+        <h2 class="orbitron-subheader">The Dev Dish Quarterly Menu</h2>
         <h3>Wraps</h3>
         <p>
-            Function Fries
-            Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese
-            Loop Wrap
-            Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce
+            <div>
+                <h4>Function Fries</h4>
+                <p>Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese</p>
+            </div>
+
+            <div>
+                <h4>Loop Wrap</h4>
+                <p>Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce
+                </p>
+            </div>
+            
             Stack Overflow
             Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado
             Recursive Roll
@@ -55,15 +66,20 @@
             Compile Chips
             Tortilla chips and salsa verde
         </p>
-        <h2>The Developer's Favorites</h2>
+        <h2 class="orbitron-subheader">The Developer's Favorites</h2>
         <p>Enjoy Dev Dish fan favorite menu items at local events or book us for a visit to your neighborhood or for your special occasion.</p>
-    </div>
+        <div class="image-gallery-container">
+            <img class="image-gallery-width" src="https://bloximages.newyork1.vip.townnews.com/bendbulletin.com/content/tncms/assets/v3/editorial/b/89/b8968c6c-91cd-11ed-881f-ffd47671e5dd/63bee4eae9ee3.image.jpg?resize=375%2C500" alt="smash burgers from Dev Dish">
+            <img class="image-gallery-width" src="https://images.squarespace-cdn.com/content/v1/667c6165abc8826969a1621a/db0cc0ef-75c5-4e56-8add-7f42023dd427/Americana5.jpg" alt="slider cheeseburgers from Dev Dish Food Truck">
+            <img class="image-gallery-width" src="https://www.simplejoy.com/wp-content/uploads/2020/07/Chicken-wrap.jpg" alt="chicken wrap from DevDish menu">
+        </div>
+    </section>
     <div id="location">
-        <h2>Location</h2>
+        <h2 class="orbitron-subheader">Location</h2>
         <p>511 Tristin Isle Park Hudsonton, Michigan</p>
-    </div>
-    <div id="hours">
-        <h2>Hours</h2>
+        </div>
+        <div id="hours">
+        <h2 class="orbitron-subheader">Hours</h2>
         <!-- For the hours section, use an unordered list with days and times in separate <span> tags. -->
         <ul>
             <li><span>Monday:</span><span>10am-7pm</span></li>
@@ -75,5 +91,13 @@
             <li><span>Sunday:</span><span>12pm-11pm</span></li>
         </ul>
     </div>
+    <footer>
+        <div class="social-gallery-container">
+            <img class="social-icon-width" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv8_0ZcBqJoVysDQJXNanWB3uFlQBRHdJ3XA&s" alt="Facebook Icon">
+            <img class="social-icon-width" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx16VdHh2dDEZKu6KDUCXcTmMfqWuPygi-0w&s" alt="Instagram Icon">
+            <img class="social-icon-width" src="https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png" alt="Youtube Icon">
+        </div>
+        <p>Copyright (c) 2024 by JeniDub Tech</p>
+    </footer>
 </body>
 </html>
